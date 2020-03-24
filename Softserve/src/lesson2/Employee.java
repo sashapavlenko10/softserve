@@ -5,17 +5,19 @@ private String name;
 private int rate;
 private int hours;
 public static int totalSum = 0; 
-public Employee() {}
+public Employee() {totalSum++;}
 
 public Employee(String name, int rate, int hours) {
 	this.name = name;
 	this.rate = rate;
 	this.hours = hours;
+	totalSum++;
 }
 
 public Employee(String name, int rate) {
 	this.name = name;
 	this.rate = rate;
+	totalSum++;
 }
 
 public String getName() {
@@ -51,4 +53,12 @@ public double getBonuses() {
 	double b = this.rate * 0.1;
 	return b;
 }
+public static void print (Employee ... emp) {
+	int sum=0;
+	for(Employee e: emp) {
+		sum+=e.getSalary();}
+		System.out.println("total salary = " + sum);
+		
 }
+}
+

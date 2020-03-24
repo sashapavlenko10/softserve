@@ -17,6 +17,6 @@ public static void main(String[] args) {
 	System.out.println(emp);
 	System.out.println(emp1);
 	System.out.println(emp2);
-
+	Employee.print(emp,emp1,emp2);
 }
 }
