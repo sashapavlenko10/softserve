@@ -10,5 +10,6 @@ public static void main(String[] args) {
 	System.out.println(prod3);
 	Product prod4 = new Product("water", 11, 70);
 	System.out.println(prod4);
+	Product.equal(15, 12, 11);
 }
 }
