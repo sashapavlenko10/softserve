@@ -10,6 +10,18 @@ public static void main(String[] args) {
 	System.out.println(prod3);
 	Product prod4 = new Product("water", 11, 70);
 	System.out.println(prod4);
-	Product.equal(15, 12, 11);
+	int a =15; 
+	int b = 12;
+	int c = 11;
+	if(a>b&&a>c){
+		System.out.println("bred= " + a);
+	}
+	else  if (b>a&&b>c){
+		System.out.println("milk" + b);
+	}
+	else {
+		System.out.println("water " + c);
+	
+	}
 }
 }

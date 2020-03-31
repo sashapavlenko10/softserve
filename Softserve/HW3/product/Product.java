@@ -33,17 +33,5 @@ public void setQuantity(int quantity) {
 public String toString() {
 	return "Product [name=" + name + ", price=" + price + ", quantity=" + quantity + "]";
 }
-public static void equal(int a, int b, int c) {
-	if(a>b&&a>c){
-		System.out.println("bred= " + a);
-	}
-	else  if (b>a&&b>c){
-		System.out.println("milk" + b);
-	}
-	else {
-		System.out.println("water " + c);
-	
-	}
-}
 }
 
