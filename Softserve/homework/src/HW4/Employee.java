@@ -6,9 +6,8 @@ public int department;
 public int salary;
 public Employee(String name, int department, int salary) {
 	this.name = name;
-	if (department>0 && department<=10)
 	this.department = department;
-	this.salary = salary;
+	this.salary = salary;	
 }
 public String getName() {
 	System.out.println(name);
