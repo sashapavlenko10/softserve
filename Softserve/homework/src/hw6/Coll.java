@@ -21,7 +21,7 @@ public static void main(String[] args) {
 	Iterator itr = myCollection.iterator();
 	while (itr.hasNext()) {
 		int y = (Integer)itr.next();
-		if (y>20 || y<5)
+		if (y<5||y>20)
 			itr.remove();
 	}
 	System.out.println("отcopтирован:"+myCollection);
