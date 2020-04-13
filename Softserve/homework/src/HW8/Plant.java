@@ -25,7 +25,7 @@ public class Plant {
 	   switch(type.toLowerCase()){
        case "rose" : return Type.Rose;
        case "tulip" : return Type.Tulip; 
-       case "chamomile" : return Type.Ñhamomile; 
+       case "chamomile" : return Type.Chamomile; 
        default : throw new TypeException("Input only type rose, tulip or chamomile");
   }
    }
